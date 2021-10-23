@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Quicksand:wght@300&display=swap');
+
+:root{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.logo{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0px 0px 0px 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+header li{
+    list-style: none;
+    border-top: solid;
+    border-width: 1px;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.nav-bar a{
+    display: block;
+    padding: 15px 22px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-container{
+    position: fixed;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: #99A2A2;
+    top: 0px;
+    left: 0px;
+}
+
+.main-container{
+    margin-left: 320px;
+}
+
+article{
+    margin: 15px;
+    font-size: 17px;
+}
+
+main li{
+    margin-top: 12px;
+}
+
+code{
+    display: block;
+    text-align: left;
+    position: relative;
+    line-height: 2;
+    background-color:#C9CACC;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.test{
+    list-style-type: circle;
+}
+
+.heading-text-data-types{
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.praragraph-text-data-types{
+    list-style-type: circle;
+    margin-left: 80px;
+    display: list-item;
+}
+
+
+@media (max-width: 720px){
+
+    .logo{
+        font-family: 'Quicksand', sans-serif;
+        padding: 0px 0px 0px 15px;
+        text-align: center;
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        color: black;
+        list-style: none;
+    }
+    
+    header li{
+        list-style: none;
+        border-top: solid;
+        border-width: 1px;
+    }
+    
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .nav-bar a{
+        padding: 15px 22px;
+        color: #4d4e53;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .header-container{
+        position: absolute;
+        min-width: 290px;
+        width: 99%;
+        height: 300px;
+        border-right: solid;
+        border-top: solid;
+        border-bottom: solid;
+        border-color: #99A2A2;
+        border-width: 1px;
+        top: 0px;
+        left:0px;
+        overflow: scroll;
+        overflow-x: hidden;
+}
+main{
+    margin-left:0px;
+    margin-top: 320px;
+}
+.main-container{
+    margin-left: 0px;
+}
+}
